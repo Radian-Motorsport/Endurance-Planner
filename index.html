@@ -728,6 +728,7 @@
             document.getElementById('tank-capacity').value = state.tankCapacity;
             document.getElementById('pit-stop-time').value = state.pitStopTime;
             showPage2();
+            calculateAndShowPage2(); // This line was added to trigger the calculation
         }
 
         // Event listeners for dynamic sliders
